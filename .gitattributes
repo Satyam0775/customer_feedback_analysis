@@ -1,0 +1,9 @@
+# Handle line endings automatically
+* text=auto
+
+# Treat Jupyter notebooks as binary (avoid CRLF confusion)
+*.ipynb binary
+
+# Keep model files and CSVs as binary too
+*.pkl binary
+*.csv binary
